@@ -1,0 +1,41 @@
+.homeContainer {
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logoContainer {
+    width: 100%;
+}
+
+img {
+    width: 30%;
+}
+
+h1 {
+    color: white;
+}
+
+.buttonHome {
+    background-color: transparent;
+    color: yellow;
+    padding: 1% 2%;
+    border: 2px solid yellow;
+    border-radius: 5%;
+}
+ .buttonHome:hover {
+     background-color: yellow;
+     color: black;
+     transition: all 0.3s;
+     cursor: pointer;
+ }
+
+ @media screen {
+     
+ }

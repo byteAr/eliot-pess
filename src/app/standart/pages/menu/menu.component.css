@@ -1,0 +1,10 @@
+.pageContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+img {
+    height: 100vh;
+}
