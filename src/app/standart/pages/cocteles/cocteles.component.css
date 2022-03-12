@@ -1,0 +1,22 @@
+.pageContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+img {
+    height: 100vh;
+}
+
+@media (max-width: 940px) {
+    .pageContainer {
+        display: block;
+        text-align: center;
+        background-color: black;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
