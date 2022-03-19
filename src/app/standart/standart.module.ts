@@ -5,13 +5,15 @@ import { StandartRoutingModule } from './standart-routing.module';
 import { HomeComponent } from './pages/home/home.component';
 import { MenuComponent } from './pages/menu/menu.component';
 import { CoctelesComponent } from './pages/cocteles/cocteles.component';
+import { PromoComponent } from './pages/promo/promo.component';
 
 
 @NgModule({
   declarations: [
     HomeComponent,
     MenuComponent,
-    CoctelesComponent
+    CoctelesComponent,
+    PromoComponent
   ],
   imports: [
     CommonModule,
