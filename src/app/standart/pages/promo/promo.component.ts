@@ -38,9 +38,6 @@ export class PromoComponent implements OnInit {
     this.seconds = Math.floor((distance % this._minute) / this._second);
   }
   
-  navigate() {
-    this.router.navigateByUrl("https://www.instagram.com/p/CbSkyparXzV/?utm_medium=copy_link")
-  }
 
 
 }
