@@ -1,7 +1,8 @@
 .pageContainer {
     height: 100vh;
+    width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: black;
 }
 
@@ -12,6 +13,7 @@ img {
 @media (max-width: 940px) {
     .pageContainer {
         display: block;
+        height: 100%;
         text-align: center;
         background-color: black;
     }
